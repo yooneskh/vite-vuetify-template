@@ -1,4 +1,5 @@
 import '@mdi/font/css/materialdesignicons.min.css';
+
 import 'vuetify/styles';
 import { createVuetify } from 'vuetify';
 
@@ -8,7 +9,7 @@ export const vuetify = createVuetify({
     variations: {
       colors: ['primary'],
       lighten: 3,
-      darken: 3
-    }
-  }
+      darken: 3,
+    },
+  },
 });
