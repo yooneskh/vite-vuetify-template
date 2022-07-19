@@ -1,8 +1,7 @@
 <script setup>
 
-import './assets/styles/app.scss';
-
 </script>
+
 
 <template>
   <v-app>
@@ -33,3 +32,8 @@ import './assets/styles/app.scss';
     </v-main>
   </v-app>
 </template>
+
+
+<style lang="scss">
+
+</style>
