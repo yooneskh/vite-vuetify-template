@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@mdi/font/-/font-6.9.96.tgz#c68da7e0895885dd09e60dc08c5ecc0d77f67efb"
   integrity sha512-z3QVZStyHVwkDsFR7A7F2PIvZJPWgdSFw4BEEy2Gc9HUN5NfK9mGbjgaYClRcbMWiYEV45srmiYtczmBtCqR8w==
 
+"@types/web-bluetooth@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.15.tgz#d60330046a6ed8a13b4a53df3813c44942ebdf72"
+  integrity sha512-w7hEHXnPMEZ+4nGKl/KDRVpxkwYxYExuHOYXyzIzCDzEZ9ZCGMAewulr9IqJu2LR4N37fcnb1XVeuZ09qgOxhA==
+
 "@vitejs/plugin-vue@3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-3.0.1.tgz#b6af8f782485374bbb5fe09edf067a845bf4caae"
@@ -119,6 +124,28 @@
   dependencies:
     find-cache-dir "^3.3.2"
     upath "^2.0.1"
+
+"@vueuse/core@9.0.0-beta.2":
+  version "9.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.0.0-beta.2.tgz#51a3572cf04b212e2f1b6fe1ec0c9ba53a5d4cb3"
+  integrity sha512-q7EVFe0Po5ad3ZWjLePIhDmARc2cDCIpjQgVAaa998JyOErS3Wr+z2t8Rf+FOEzuTel0ByfunlvTYJJlGlx8rw==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.15"
+    "@vueuse/metadata" "9.0.0-beta.2"
+    "@vueuse/shared" "9.0.0-beta.2"
+    vue-demi "*"
+
+"@vueuse/metadata@9.0.0-beta.2":
+  version "9.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.0.0-beta.2.tgz#9b82c2aeb29ad01821242fd372f51b55ce461159"
+  integrity sha512-qLamGnLJGSYmyYS+3UtRIBYMml5KhsfIIMrx72LGUV4d+KQGFRlhUQ9eXGDC8KoOJbWGONxUcJy+n36/x8lYVg==
+
+"@vueuse/shared@9.0.0-beta.2":
+  version "9.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.0.0-beta.2.tgz#196da9759430a25fc767094dcfe916c84c14a315"
+  integrity sha512-Jz0T9b8cfvlkTuk1ojIINLNzdn0/paGfSnx7YWdjYvtpvN8x0siMK5UQt+d24tUFdzNzMbIj4nJOqpx4Pko7dQ==
+  dependencies:
+    vue-demi "*"
 
 anymatch@~3.1.2:
   version "3.1.2"
@@ -585,6 +612,11 @@ vite@3.0.2:
     rollup "^2.75.6"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vue-demi@*:
+  version "0.13.5"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.5.tgz#d5eddbc9eaefb89ce5995269d1fa6b0486312092"
+  integrity sha512-tO3K2bML3AwiHmVHeKCq6HLef2st4zBXIV5aEkoJl6HZ+gJWxWv2O8wLH8qrA3SX3lDoTDHNghLX1xZg83MXvw==
 
 vue-router@4.1.2:
   version "4.1.2"
