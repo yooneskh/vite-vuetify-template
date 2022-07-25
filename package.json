@@ -1,7 +1,7 @@
 {
   "name": "vite-vuetify-template",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "serve": "vite",
     "lint": "exit 0;",
